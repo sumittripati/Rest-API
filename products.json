@@ -1,0 +1,44 @@
+[
+    {
+        "name": "iphone",
+        "price": 100,
+        "featured": true,
+        "rating": 4.5,
+        "company": "Google"
+    },
+    {
+        "name": "iphone10",
+        "price": 200,
+        "featured": false,
+        "rating": 4.7,
+        "company": "Amazon"
+    },
+    {
+        "name": "watch",
+        "price": 300,
+        "featured": true,
+        "rating": 4.9,
+        "company": "Facebook"
+    },
+    {
+        "name": "iphone13",
+        "price": 400,
+        "featured": true,
+        "rating": 4.2,
+        "company" : "Amazon"
+    },
+    {
+        "name": "watch",
+        "price": 500,
+        "featured": true,
+        "rating": 4.8,
+        "company" : "Google"
+    },
+    {
+        "name": "iphone11",
+        "price": 100,
+        "featured": false,
+        "rating": 4.5,
+        "company": "Google"
+    }
+]
