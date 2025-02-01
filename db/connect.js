@@ -1,32 +1,3 @@
-let mongoose = require('mongoose');
-
-let connectDB = async (uri) => {
-   console.log("Connecting to database");
-   try {
-       await mongoose.connect(uri);
-       console.log("Database connected successfully");
-   } catch (error) {
-       console.error("Database connection failed", error);
-   }
-}
-
-module.exports = connectDB;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // step 3
 
@@ -83,24 +54,24 @@ module.exports = connectDB;
 
 
 
-// let mongoose = require('mongoose');
+let mongoose = require('mongoose');
 
-// // let uri = "mongodb+srv://tripathisumit2912:tripathisumit2912@cluster0.eogz7.mongodb.net/NewRestApi?retryWrites=true&w=majority&appName=Cluster0";
+// let uri = "mongodb+srv://tripathisumit2912:tripathisumit2912@cluster0.eogz7.mongodb.net/NewRestApi?retryWrites=true&w=majority&appName=Cluster0";
 
-// let connectDB = async (uri) => {
-// //    console.log("Connecting to database");
-//    try {
-//        await mongoose.connect(uri);
-//        console.log("Database connected successfully");
-//    } catch (error) {
-//        console.error("Database connection failed", error);
-//    }
-// }
+let connectDB = async (uri) => {
+//    console.log("Connecting to database");
+   try {
+       await mongoose.connect(uri);
+       console.log("Database connected successfully");
+   } catch (error) {
+       console.error("Database connection failed", error);
+   }
+}
 
-// module.exports = connectDB;
+module.exports = connectDB;
 
 
 
-// MONGODB_URL = mongodb+srv://newtest123:passtest123@create-cluster.co4d8.mongodb.net/?retryWrites=true&w=majority&appName=create-cluster
+
 
 
